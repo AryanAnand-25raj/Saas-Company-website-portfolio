@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="FlowPilot helps modern teams plan, automate, and ship better work from one calm workspace.">
+  <title>FlowPilot - Work flows better here</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="FlowPilot home">
+      <span class="brand-mark" aria-hidden="true">
+        <span></span><span></span><span></span>
+      </span>
+      FlowPilot
+    </a>
+
+    <button class="menu-button" aria-label="Open navigation" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+
+    <nav class="main-nav" aria-label="Main navigation">
+      <a href="#product">Product</a>
+      <a href="#solutions">Solutions</a>
+      <a href="#pricing">Pricing</a>
+      <a href="#resources">Resources</a>
+    </nav>
+
+    <div class="header-actions">
+      <a class="login-link" href="#contact">Log in</a>
+      <a class="button button-small button-dark" href="#pricing">Start for free <span>↗</span></a>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="hero-orb hero-orb-one"></div>
+      <div class="hero-orb hero-orb-two"></div>
+
+      <div class="eyebrow reveal">
+        <span class="eyebrow-dot"></span>
+        Meet FlowPilot 2.0
+        <a href="#product">See what's new <span>→</span></a>
+      </div>
+
+      <h1 class="reveal">One workspace.<br><span>Every idea in motion.</span></h1>
+      <p class="hero-copy reveal">
+        Plan projects, automate the busywork, and keep your team moving forward
+        without adding another complicated tool.
+      </p>
+
+      <div class="hero-actions reveal">
+        <a class="button button-primary" href="#pricing">Start free for 14 days <span>↗</span></a>
+        <a class="button button-secondary" href="#product">
+          <span class="play-icon">▶</span> Watch 90-sec overview
+        </a>
+      </div>
+      <p class="hero-note reveal">No credit card required · Set up in under 5 minutes</p>
+
+      <div class="dashboard-wrap reveal" id="product">
+        <div class="floating-card team-card">
+          <div class="avatar-stack">
+            <span>AK</span><span>MS</span><span>JL</span>
+          </div>
+          <strong>8 teammates online</strong>
+        </div>
+
+        <div class="floating-card automation-card">
+          <span class="automation-icon">✓</span>
+          <div><strong>Automation complete</strong><small>12 tasks moved forward</small></div>
+        </div>
+
+        <div class="dashboard">
+          <aside class="dashboard-sidebar">
+            <a class="mini-brand" href="#home">
+              <span class="brand-mark"><span></span><span></span><span></span></span>
+            </a>
+            <div class="side-icons">
+              <button class="active" aria-label="Dashboard">⌂</button>
+              <button aria-label="Tasks">✓</button>
+              <button aria-label="Reports">▥</button>
+              <button aria-label="Team">♙</button>
+            </div>
+            <div class="side-profile">AL</div>
+          </aside>
+
+          <div class="dashboard-main">
+            <div class="dashboard-topbar">
+              <div>
+                <p>Workspace / Product</p>
+                <h2>Q3 Product Launch</h2>
+              </div>
+              <div class="topbar-actions">
+                <button aria-label="Search">⌕</button>
+                <button aria-label="Notifications">♢</button>
+                <button class="invite-button">+ Invite</button>
+              </div>
+            </div>
+
+            <div class="metrics-grid">
+              <article class="metric-card">
+                <div class="metric-heading"><span>Tasks completed</span><span class="trend">+12%</span></div>
+                <strong>148 <small>/ 186</small></strong>
+                <div class="progress"><span style="width: 78%"></span></div>
+              </article>
+              <article class="metric-card">
+                <div class="metric-heading"><span>Team velocity</span><span class="trend">+8.4%</span></div>
+                <strong>24.8 <small>pts/week</small></strong>
+                <div class="sparkline" aria-hidden="true">
+                  <i></i><i></i><i></i><i></i><i></i><i></i><i></i>
+                </div>
+              </article>
+              <article class="metric-card">
+                <div class="metric-heading"><span>Time saved</span><span class="trend">This month</span></div>
+                <strong>36.5 <small>hours</small></strong>
+                <div class="people-row"><span>AK</span><span>MS</span><span>JL</span><small>+5</small></div>
+              </article>
+            </div>
+
+            <div class="board-heading">
+              <div class="view-tabs"><button class="active">Board</button><button>List</button><button>Timeline</button></div>
+              <button class="filter-button">☷ Filter</button>
+            </div>
+
+            <div class="kanban">
+              <div class="kanban-column">
+                <h3><span class="status-dot gray"></span> Backlog <small>3</small></h3>
+                <article class="task-card">
+                  <span class="tag tag-purple">Research</span>
+                  <h4>Analyze customer feedback</h4>
+                  <p>Review insights from Q2 interviews</p>
+                  <div class="task-meta"><span class="avatar blue">AK</span><span>◷ Aug 18</span><span>☵ 4</span></div>
+                </article>
+                <article class="task-card compact">
+                  <span class="tag tag-blue">Content</span>
+                  <h4>Draft launch announcement</h4>
+                  <div class="task-meta"><span class="avatar orange">MS</span><span>◷ Aug 20</span></div>
+                </article>
+              </div>
+
+              <div class="kanban-column">
+                <h3><span class="status-dot purple"></span> In progress <small>4</small></h3>
+                <article class="task-card highlighted">
+                  <div class="cover-art"><span></span><span></span><span></span></div>
+                  <span class="tag tag-green">Design</span>
+                  <h4>Build product landing page</h4>
+                  <p>Final responsive design and assets</p>
+                  <div class="task-meta"><span class="avatar green">JL</span><span>◷ Aug 16</span><span>☵ 8</span></div>
+                </article>
+                <article class="task-card compact">
+                  <span class="tag tag-purple">Research</span>
+                  <h4>Finalize launch pricing</h4>
+                  <div class="task-meta"><span class="avatar blue">AK</span><span>◷ Aug 19</span></div>
+                </article>
+              </div>
+
+              <div class="kanban-column">
+                <h3><span class="status-dot green"></span> Complete <small>2</small></h3>
+                <article class="task-card done">
+                  <span class="tag tag-green">Strategy</span>
+                  <h4>Define product positioning</h4>
+                  <p>Messaging framework approved</p>
+                  <div class="task-meta"><span class="avatar orange">MS</span><span>✓ Aug 10</span><span>☵ 6</span></div>
+                </article>
+                <article class="task-card compact done">
+                  <span class="tag tag-blue">Engineering</span>
+                  <h4>Complete beta release</h4>
+                  <div class="task-meta"><span class="avatar green">JL</span><span>✓ Aug 8</span></div>
+                </article>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="logo-strip section-small">
+      <p>Trusted by 2,000+ ambitious teams worldwide</p>
+      <div class="logo-row">
+        <span>Northstar</span><span>VERTEX</span><span>Capsule</span><span>Wavelength</span><span>MONO</span>
+      </div>
+    </section>
+
+    <section class="features section" id="solutions">
+      <div class="section-heading reveal">
+        <div>
+          <span class="section-kicker">A calmer way to work</span>
+          <h2>Everything your team needs.<br><span>Nothing it doesn't.</span></h2>
+        </div>
+        <p>FlowPilot brings projects, communication, and automation together so your team can focus on work that matters.</p>
+      </div>
+
+      <div class="feature-grid">
+        <article class="feature-card feature-large reveal">
+          <div class="feature-copy">
+            <span class="feature-number">01</span>
+            <h3>See the whole picture</h3>
+            <p>Switch between boards, lists, and timelines. Everyone gets the view they need, while your data stays perfectly in sync.</p>
+            <a href="#pricing">Explore project views <span>→</span></a>
+          </div>
+          <div class="timeline-visual">
+            <div class="timeline-header"><span>Launch timeline</span><span>Aug 12 – Sep 06</span></div>
+            <div class="timeline-row"><span>Research</span><i class="bar bar-one"></i></div>
+            <div class="timeline-row"><span>Design</span><i class="bar bar-two"></i></div>
+            <div class="timeline-row"><span>Development</span><i class="bar bar-three"></i></div>
+            <div class="timeline-row"><span>Launch</span><i class="bar bar-four"></i></div>
+          </div>
+        </article>
+
+        <article class="feature-card reveal">
+          <span class="feature-number">02</span>
+          <div class="automation-visual">
+            <span class="automation-node trigger">When<br><strong>Task is done</strong></span>
+            <span class="connector"></span>
+            <span class="automation-node action">Then<br><strong>Notify team</strong></span>
+          </div>
+          <h3>Automate the routine</h3>
+          <p>Build powerful workflows in minutes, without code. Let FlowPilot handle repetitive updates and handoffs.</p>
+          <a href="#pricing">Discover automations <span>→</span></a>
+        </article>
+
+        <article class="feature-card reveal">
+          <span class="feature-number">03</span>
+          <div class="insight-visual">
+            <div class="insight-top"><span>Team performance</span><strong>+18.4%</strong></div>
+            <div class="chart-bars"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+          </div>
+          <h3>Turn progress into insight</h3>
+          <p>Beautiful, real-time reports help you spot blockers, balance workloads, and make better decisions together.</p>
+          <a href="#pricing">View reporting tools <span>→</span></a>
+        </article>
+      </div>
+    </section>
+
+    <section class="workflow section">
+      <div class="workflow-copy reveal">
+        <span class="section-kicker light">Built for real teamwork</span>
+        <h2>From first idea to<br><span>finished work.</span></h2>
+        <p>Keep every conversation, decision, and deliverable connected in one transparent place.</p>
+        <ul class="check-list">
+          <li><span>✓</span><div><strong>Plan with clarity</strong><small>Set goals, owners, and deadlines everyone understands.</small></div></li>
+          <li><span>✓</span><div><strong>Collaborate in context</strong><small>Share feedback right where the work happens.</small></div></li>
+          <li><span>✓</span><div><strong>Deliver with confidence</strong><small>Know exactly what is moving and what needs attention.</small></div></li>
+        </ul>
+      </div>
+      <div class="workflow-visual reveal">
+        <div class="message-card message-one">
+          <span class="avatar blue">AK</span>
+          <div><strong>Alex Kim</strong><small>Just updated the launch brief.</small></div>
+          <span class="time">2m</span>
+        </div>
+        <div class="workflow-center">
+          <div class="pulse-logo"><span class="brand-mark"><span></span><span></span><span></span></span></div>
+          <div class="orbit orbit-one"><i></i><i></i><i></i></div>
+          <div class="orbit orbit-two"><i></i><i></i></div>
+        </div>
+        <div class="message-card message-two">
+          <span class="check-square">✓</span>
+          <div><strong>Milestone reached</strong><small>Design review is complete.</small></div>
+        </div>
+        <div class="message-card message-three">
+          <span class="avatar orange">MS</span>
+          <div><strong>Maya shared a file</strong><small>Homepage-v4.fig</small></div>
+          <span class="file-chip">FIG</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="testimonial section">
+      <div class="quote-mark">“</div>
+      <blockquote class="reveal">
+        FlowPilot gave our team something we didn't know we were missing:
+        <strong>a shared sense of momentum.</strong>
+      </blockquote>
+      <div class="quote-author reveal">
+        <span class="portrait">NC</span>
+        <div><strong>Nina Chen</strong><small>VP of Product at Northstar</small></div>
+      </div>
+      <div class="quote-stats reveal">
+        <div><strong>42%</strong><span>faster project delivery</span></div>
+        <div><strong>8.5 hrs</strong><span>saved per person weekly</span></div>
+        <div><strong>94%</strong><span>team adoption in 30 days</span></div>
+      </div>
+    </section>
+
+    <section class="pricing section" id="pricing">
+      <div class="pricing-heading reveal">
+        <span class="section-kicker">Simple, transparent pricing</span>
+        <h2>Start small. <span>Scale when ready.</span></h2>
+        <p>Every plan includes a 14-day free trial. No credit card required.</p>
+        <div class="billing-toggle" role="group" aria-label="Billing period">
+          <button class="active" data-period="monthly">Monthly</button>
+          <button data-period="yearly">Yearly <span>Save 20%</span></button>
+        </div>
+      </div>
+
+      <div class="pricing-grid">
+        <article class="price-card reveal">
+          <h3>Starter</h3>
+          <p>For individuals and small teams getting organized.</p>
+          <div class="price"><span>$</span><strong data-monthly="0" data-yearly="0">0</strong><small>/ month</small></div>
+          <a class="button button-plan" href="#contact">Get started free</a>
+          <ul><li>✓ Up to 5 team members</li><li>✓ Unlimited projects</li><li>✓ Board and list views</li><li>✓ 1 GB file storage</li></ul>
+        </article>
+
+        <article class="price-card popular reveal">
+          <span class="popular-label">Most popular</span>
+          <h3>Pro</h3>
+          <p>For growing teams that need more power and control.</p>
+          <div class="price"><span>$</span><strong data-monthly="12" data-yearly="10">12</strong><small>/ user / month</small></div>
+          <a class="button button-primary" href="#contact">Start free trial <span>↗</span></a>
+          <ul><li>✓ Unlimited team members</li><li>✓ Timeline and workload views</li><li>✓ Automations and integrations</li><li>✓ Advanced reporting</li><li>✓ 100 GB file storage</li></ul>
+        </article>
+
+        <article class="price-card reveal">
+          <h3>Business</h3>
+          <p>For organizations that need security and support.</p>
+          <div class="price custom"><strong>Let's talk</strong></div>
+          <a class="button button-plan" href="#contact">Contact sales</a>
+          <ul><li>✓ Everything in Pro</li><li>✓ SSO and advanced security</li><li>✓ Custom roles and permissions</li><li>✓ Dedicated success manager</li></ul>
+        </article>
+      </div>
+    </section>
+
+    <section class="faq section" id="resources">
+      <div class="faq-heading reveal">
+        <span class="section-kicker">Questions, answered</span>
+        <h2>Good to know.</h2>
+        <p>Can't find what you're looking for? <a href="#contact">Talk to our team.</a></p>
+      </div>
+      <div class="faq-list reveal">
+        <article class="faq-item open">
+          <button aria-expanded="true"><span>Can I try FlowPilot before paying?</span><i>−</i></button>
+          <div class="faq-answer"><p>Yes. Every paid plan starts with a full 14-day trial, and you do not need a credit card to begin.</p></div>
+        </article>
+        <article class="faq-item">
+          <button aria-expanded="false"><span>Can I change plans later?</span><i>+</i></button>
+          <div class="faq-answer"><p>Absolutely. Upgrade, downgrade, or move between monthly and yearly billing from your workspace settings.</p></div>
+        </article>
+        <article class="faq-item">
+          <button aria-expanded="false"><span>Does FlowPilot integrate with our existing tools?</span><i>+</i></button>
+          <div class="faq-answer"><p>FlowPilot connects with popular tools including Slack, Google Drive, Figma, GitHub, and Zapier.</p></div>
+        </article>
+        <article class="faq-item">
+          <button aria-expanded="false"><span>Is my team's data secure?</span><i>+</i></button>
+          <div class="faq-answer"><p>Your data is encrypted in transit and at rest, with role-based permissions available on paid plans.</p></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="cta section" id="contact">
+      <div class="cta-glow"></div>
+      <span class="section-kicker light reveal">Your best work is waiting</span>
+      <h2 class="reveal">Make space for<br><span>what matters.</span></h2>
+      <p class="reveal">Join thousands of teams doing their clearest, most focused work with FlowPilot.</p>
+      <div class="hero-actions reveal">
+        <a class="button button-white" href="mailto:hello@flowpilot.example">Start your free trial <span>↗</span></a>
+        <a class="button button-outline" href="mailto:sales@flowpilot.example">Talk to sales</a>
+      </div>
+      <small class="reveal">Free for 14 days · No credit card · Cancel anytime</small>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <a class="brand" href="#home"><span class="brand-mark"><span></span><span></span><span></span></span>FlowPilot</a>
+        <p>Helping teams move ideas forward, together.</p>
+      </div>
+      <div class="footer-links"><strong>Product</strong><a href="#product">Features</a><a href="#pricing">Pricing</a><a href="#solutions">Integrations</a></div>
+      <div class="footer-links"><strong>Company</strong><a href="#resources">About</a><a href="#resources">Careers</a><a href="#resources">Contact</a></div>
+      <div class="footer-links"><strong>Resources</strong><a href="#resources">Help center</a><a href="#resources">Blog</a><a href="#resources">Guides</a></div>
+      <div class="footer-links"><strong>Follow</strong><a href="#home">LinkedIn</a><a href="#home">X / Twitter</a><a href="#home">YouTube</a></div>
+    </div>
+    <div class="footer-bottom"><span>© 2026 FlowPilot, Inc.</span><div><a href="#home">Privacy</a><a href="#home">Terms</a><a href="#home">Security</a></div></div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
